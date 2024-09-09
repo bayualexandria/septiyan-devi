@@ -7,6 +7,7 @@
 6 silly config load:file:C:\Users\cis2\AppData\Roaming\npm\etc\npmrc
 7 verbose title npm exec tailwindcss -i ./assets/dist/css/styles.css -o ./assets/css/styles.css --watch
 8 verbose argv "exec" "--" "tailwindcss" "-i" "./assets/dist/css/styles.css" "-o" "./assets/css/styles.css" "--watch"
-9 verbose logfile logs-max:10 dir:C:\Users\cis2\Documents\Desain\septian-devi\tmpnodejsnpm-cache\_logs\2024-09-07T01_31_07_568Z-
-10 verbose logfile C:\Users\cis2\Documents\Desain\septian-devi\tmpnodejsnpm-cache\_logs\2024-09-07T01_31_07_568Z-debug-0.log
-11 silly logfile done cleaning log files
+9 verbose logfile logs-max:10 dir:C:\Users\cis2\Documents\Desain\septian-devi\tmpnodejsnpm-cache\_logs\2024-09-09T06_45_21_378Z-
+10 verbose logfile C:\Users\cis2\Documents\Desain\septian-devi\tmpnodejsnpm-cache\_logs\2024-09-09T06_45_21_378Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
