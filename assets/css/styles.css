@@ -570,6 +570,10 @@ video {
   bottom: 1rem;
 }
 
+.float-right {
+  float: right;
+}
+
 .flex {
   display: flex;
 }
@@ -585,10 +589,6 @@ video {
 
 .h-12 {
   height: 3rem;
-}
-
-.h-48 {
-  height: 12rem;
 }
 
 .h-5 {
@@ -611,16 +611,16 @@ video {
   height: 100vh;
 }
 
-.h-10 {
-  height: 2.5rem;
+.w-1\/3 {
+  width: 33.333333%;
 }
 
 .w-12 {
   width: 3rem;
 }
 
-.w-48 {
-  width: 12rem;
+.w-3\/4 {
+  width: 75%;
 }
 
 .w-5 {
@@ -643,8 +643,9 @@ video {
   width: 100%;
 }
 
-.w-10 {
-  width: 2.5rem;
+.rotate-180 {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 @keyframes bounce {
@@ -729,10 +730,6 @@ video {
   overflow: hidden;
 }
 
-.overflow-scroll {
-  overflow: scroll;
-}
-
 .scroll-smooth {
   scroll-behavior: smooth;
 }
@@ -755,10 +752,6 @@ video {
 
 .border {
   border-width: 1px;
-}
-
-.border-2 {
-  border-width: 2px;
 }
 
 .border-l-2 {
@@ -802,13 +795,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-slate-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
-}
-
 .p-1 {
   padding: 0.25rem;
+}
+
+.p-28 {
+  padding: 7rem;
 }
 
 .px-1 {
@@ -848,8 +840,8 @@ video {
   padding-top: 0.5rem;
 }
 
-.pt-24 {
-  padding-top: 6rem;
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .pt-8 {
@@ -864,8 +856,8 @@ video {
   text-align: end;
 }
 
-.font-cinzel {
-  font-family: Cinzel;
+.font-alice {
+  font-family: Alice;
 }
 
 .font-euphoria {
@@ -876,11 +868,6 @@ video {
   font-family: Kurale;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -888,6 +875,10 @@ video {
 
 .text-\[10px\] {
   font-size: 10px;
+}
+
+.text-\[28px\] {
+  font-size: 28px;
 }
 
 .text-\[50px\] {
@@ -902,6 +893,11 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -949,11 +945,6 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.outline-none {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
-}
-
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -964,6 +955,87 @@ video {
 
 .duration-200 {
   transition-duration: 200ms;
+}
+
+.fade-in-text {
+  animation: left-to-right-fade-in 1s ease-in;
+  -webkit-mask-repeat: no-repeat;
+  transition: 3s;
+}
+
+@keyframes left-to-right-fade-in {
+  0% {
+    -webkit-mask-size: 0%;
+    -webkit-mask-image: linear-gradient(
+        to left,
+        rgba(0, 0, 0, 1) 70%,
+        rgba(0, 0, 0, 0)
+      );
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-mask-size: 100%;
+    -webkit-mask-image: linear-gradient(
+        to left,
+        rgba(0, 0, 0, 1) 70%,
+        rgba(0, 0, 0, 0)
+      );
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    float: inline-start;
+  }
+
+  to {
+    opacity: 1;
+    float: inline-end;
+  }
+}
+
+.fade-in-element {
+  opacity: 1;
+  animation: fadeIn 1s backwards;
+}
+
+@keyframes fadeInAnimationTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInAnimationBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInTop {
+  animation: fadeInAnimationTop ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.fadeInBottom {
+  animation: fadeInAnimationBottom ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .hover\:bg-white:hover {
