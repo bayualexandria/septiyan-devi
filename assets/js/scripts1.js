@@ -2,12 +2,31 @@ const bukaUndangan = document.getElementById("buka");
 const btnBukaUndangan = document.getElementById("buttonBukaUndangan");
 const undanganTutup = document.getElementById("undanganTutup");
 const undanganBuka = document.getElementById("content");
+const btnSlideShow = document.getElementById("slide-show");
+const hero = document.getElementById("slide");
+const bg = document.getElementById("bg");
+const home = document.getElementById("weeding");
 
 if (localStorage.getItem("buka") == "buka") {
-//   playAudio();
+  //   playAudio();
   undanganTutup.innerHTML = "";
   undanganBuka.classList.remove("hidden");
+  hero.classList.remove("animate-text-slide");
 }
+
+// btnSlideShow.addEventListener("click", function () {
+//   console.log("Hello");
+//   undanganBuka.classList.add("animate-text-slide");
+//   setTimeout(() => {
+//     undanganBuka.classList.remove("animate-text-slide");
+//   }, 2000);
+// });
+
+home.addEventListener("click", function (e) {
+  e.preventDefault();
+
+  window.location.href = "#home";
+});
 
 const undangan = () => {
   bukaUndangan.addEventListener("click", function (e) {
@@ -20,9 +39,31 @@ const undangan = () => {
 
                                 `;
     setTimeout(() => {
-      localStorage.setItem("buka", "buka");
-      undanganTutup.innerHTML = "";
-      undanganBuka.classList.remove("hidden");
+      btnBukaUndangan.innerHTML = `<svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                          class="w-5 h-5"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M21.75 9v.906a2.25 2.25 0 0 1-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 0 0 1.183 1.981l6.478 3.488m8.839 2.51-4.66-2.51m0 0-1.023-.55a2.25 2.25 0 0 0-2.134 0l-1.022.55m0 0-4.661 2.51m16.5 1.615a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V8.844a2.25 2.25 0 0 1 1.183-1.981l7.5-4.039a2.25 2.25 0 0 1 2.134 0l7.5 4.039a2.25 2.25 0 0 1 1.183 1.98V19.5Z"
+                          />
+                        </svg>
+                        Buka undangan`;
+      hero.classList.add("animate-text-slide");
+      bg.classList.remove("bg-white");
+      bg.classList.add("bg-primary");
+      setTimeout(() => {
+        localStorage.setItem("buka", "buka");
+        undanganTutup.innerHTML = "";
+        hero.classList.remove("animate-text-slide");
+        
+        undanganBuka.classList.remove("hidden");
+      }, 1500);
     }, 10000);
   });
 };

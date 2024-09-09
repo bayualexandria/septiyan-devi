@@ -7,6 +7,13 @@
 6 silly config load:file:C:\Users\cis2\AppData\Roaming\npm\etc\npmrc
 7 verbose title npm exec tailwindcss -i ./assets/dist/css/styles.css -o ./assets/css/styles.css --watch
 8 verbose argv "exec" "--" "tailwindcss" "-i" "./assets/dist/css/styles.css" "-o" "./assets/css/styles.css" "--watch"
-9 verbose logfile logs-max:10 dir:C:\Users\cis2\Documents\Desain\septian-devi\tmpnodejsnpm-cache\_logs\2024-09-06T07_58_06_723Z-
-10 verbose logfile C:\Users\cis2\Documents\Desain\septian-devi\tmpnodejsnpm-cache\_logs\2024-09-06T07_58_06_723Z-debug-0.log
-11 silly logfile done cleaning log files
+9 verbose logfile logs-max:10 dir:C:\Users\cis2\Documents\Desain\septian-devi\tmpnodejsnpm-cache\_logs\2024-09-09T02_13_19_893Z-
+10 verbose logfile C:\Users\cis2\Documents\Desain\septian-devi\tmpnodejsnpm-cache\_logs\2024-09-09T02_13_19_893Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose cwd C:\Users\cis2\Documents\Desain\septian-devi
+14 verbose os Windows_NT 10.0.22621
+15 verbose node v20.15.0
+16 verbose npm  v10.8.1
+17 verbose exit 3221225786
+18 verbose code 3221225786
