@@ -5,13 +5,76 @@ const undanganBuka = document.getElementById("content");
 const btnSlideShow = document.getElementById("slide-show");
 const hero = document.getElementById("slide");
 const bg = document.getElementById("bg");
-const home = document.getElementById("weeding");
+
+// Tombol Button Navigation
+const btnHome = document.getElementById("btn-weeding");
+const btnPasangan = document.getElementById("btn-pasangan");
+const btnWaktu = document.getElementById("btn-waktu");
+const btnUcapan = document.getElementById("btn-ucapan");
+const btnHadiah = document.getElementById("btn-hadiah");
+
+// Pages
+const home = document.getElementById("home");
+const pasangan = document.getElementById("pasangan");
+const waktu = document.getElementById("waktu");
+const ucapan = document.getElementById("ucapan");
+const hadiah = document.getElementById("hadiah");
 
 if (localStorage.getItem("buka") == "buka") {
   //   playAudio();
   undanganTutup.innerHTML = "";
   undanganBuka.classList.remove("hidden");
   hero.classList.remove("animate-text-slide");
+
+  btnHome.addEventListener("click", function (e) {
+    e.preventDefault();
+    home.classList.remove("hidden");
+    pasangan.classList.add("hidden");
+    waktu.classList.add("hidden");
+    ucapan.classList.add("hidden");
+    hadiah.classList.add("hidden");
+    window.location.href = "#home";
+  });
+
+  btnPasangan.addEventListener("click", function (e) {
+    e.preventDefault();
+    pasangan.classList.remove("hidden");
+    home.classList.add("hidden");
+    waktu.classList.add("hidden");
+    ucapan.classList.add("hidden");
+    hadiah.classList.add("hidden");
+    window.location.href = "#pasangan";
+  });
+
+  btnWaktu.addEventListener("click", function (e) {
+    e.preventDefault();
+    waktu.classList.remove("hidden");
+    home.classList.add("hidden");
+    pasangan.classList.add("hidden");
+    ucapan.classList.add("hidden");
+    hadiah.classList.add("hidden");
+    window.location.href = "#waktu";
+  });
+
+  btnUcapan.addEventListener("click", function (e) {
+    e.preventDefault();
+    ucapan.classList.remove("hidden");
+    home.classList.add("hidden");
+    pasangan.classList.add("hidden");
+    waktu.classList.add("hidden");
+    hadiah.classList.add("hidden");
+    window.location.href = "#ucapan";
+  });
+
+  btnHadiah.addEventListener("click", function (e) {
+    e.preventDefault();
+    hadiah.classList.remove("hidden");
+    home.classList.add("hidden");
+    pasangan.classList.add("hidden");
+    waktu.classList.add("hidden");
+    ucapan.classList.add("hidden");
+    window.location.href = "#hadiah";
+  });
 }
 
 // btnSlideShow.addEventListener("click", function () {
@@ -21,12 +84,6 @@ if (localStorage.getItem("buka") == "buka") {
 //     undanganBuka.classList.remove("animate-text-slide");
 //   }, 2000);
 // });
-
-home.addEventListener("click", function (e) {
-  e.preventDefault();
-
-  window.location.href = "#home";
-});
 
 const undangan = () => {
   bukaUndangan.addEventListener("click", function (e) {
@@ -61,7 +118,7 @@ const undangan = () => {
         localStorage.setItem("buka", "buka");
         undanganTutup.innerHTML = "";
         hero.classList.remove("animate-text-slide");
-        
+
         undanganBuka.classList.remove("hidden");
       }, 1500);
     }, 10000);

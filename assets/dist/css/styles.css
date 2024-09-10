@@ -63,6 +63,30 @@
       transform: translateY(0);
   }
 }
+@keyframes fadeInAnimationLeft {
+  0% {
+      opacity: 0;
+      transform: translateX(-50px);
+      
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+@keyframes fadeInAnimationRight {
+  0% {
+      opacity: 0;
+      transform: translateX(50px);
+      
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
 .fadeInTop {
     animation: fadeInAnimationTop ease 3s;
     animation-iteration-count: 1;
@@ -73,4 +97,18 @@
    
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+
+.fadeInLeft {
+  animation: fadeInAnimationLeft ease 3s;
+ 
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.fadeInRight {
+  animation: fadeInAnimationRight ease 3s;
+ 
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
