@@ -619,8 +619,8 @@ video {
   height: 1.75rem;
 }
 
-.h-\[90vh\] {
-  height: 90vh;
+.h-\[85vh\] {
+  height: 85vh;
 }
 
 .h-full {
@@ -701,16 +701,6 @@ video {
 
 .animate-text-slide {
   animation: text-slide 1.5s cubic-bezier(0.83, 0, 0.17, 1) infinite;
-}
-
-@keyframes pulse {
-  50% {
-    opacity: .5;
-  }
-}
-
-.animate-pulse {
-  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
 .cursor-pointer {
@@ -982,10 +972,6 @@ video {
   transition-duration: 200ms;
 }
 
-.duration-150 {
-  transition-duration: 150ms;
-}
-
 .fade-in-text {
   animation: left-to-right-fade-in 1s ease-in;
   -webkit-mask-repeat: no-repeat;
@@ -1101,18 +1087,6 @@ video {
   animation: fadeInAnimationRight ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: backwards;
-}
-
-@keyframes spin {
-  to {
-    content: var(--tw-content);
-    transform: rotate(360deg);
-  }
-}
-
-.after\:animate-spin::after {
-  content: var(--tw-content);
-  animation: spin 1s linear infinite;
 }
 
 .hover\:bg-white:hover {
