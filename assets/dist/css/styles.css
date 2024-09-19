@@ -106,10 +106,28 @@
   animation-fill-mode: forwards;
 }
 
-.fadeInRight {
-  animation: fadeInAnimationRight ease 3s;
- 
-  animation-iteration-count: 1;
-  animation-fill-mode: backwards;
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+
+    
+    .fadeInRight {
+      animation: fadeInAnimationRight ease 3s;
+     
+      animation-iteration-count: 1;
+      animation-fill-mode: none;
+    }
+  
 }
 
+#disqus_thread {
+  width: 100%;
+}
+
+.text-shadow{
+  text-shadow: 1px 1px rgba(62, 78, 107, 1);
+}
+
+.text-shadow-white{
+  text-shadow: 1px 1px rgb(255, 255, 255);
+
+}

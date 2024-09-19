@@ -1,259 +1,644 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Septiyan & Devi</title>
-    <link rel="icon" href="assets/icons/icons-weeding.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Kurale&family=Sacramento&family=Cinzel:wght@400..900&family=Alice&family=Kurale&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Septiyan & Devi</title>
+  <link rel="icon" href="assets/icons/icons-weeding.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Kurale&family=Sacramento&family=Cinzel:wght@400..900&family=Alice&family=Kurale&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body class="flex items-center flex-col bg-white w-full">
-    <div class="flex justify-center flex-row bg-white w-full" id="bg">
-    <div class="bg-primary w-full md:w-1/2 lg:w-1/4 h-screen" id="slide">
-        <div id="undanganTutup">
-            <div class="h-full w-full md:w-1/2 lg:w-1/4 hero" id="hero">
-              <div class="absolute w-full md:w-1/2 lg:w-1/4 h-full bg-slate-500/50 px-1">
-                <div class="flex flex-col justify-center text-center h-full">
-                  <div class="font-alice flex flex-col gap-y-10">
-                    <h1 class="text-4xl text-slate-50 text-shadow ">
-                      The Weeding Of
-                    </h1>
-                    <div class="w-full justify-center flex">
-                     
-                        <img src="assets/images/bingkai__1_-removebg-preview.png" alt="" class="w-2/3" />
-                    
-                    </div>
-                    
-                  </div>
-                  <div class="flex flex-row justify-center items-center font-kurale gap-x-1 text-white">
-                    <h1 class="text-end">MINGGU</h1>
-                    <h1 class="text-[50px]">6</h1>
-                    <div class="flex flex-col">
-                      <h1>OKTOBER</h1>
-                      <h1>2024</h1>
-                    </div>
-          
-                  </div>
-                  <div class="py-5 flex flex-col">
-                    <p class="text-sm font-bold text-slate-50 text-shadow">
-                      Kepada Yth Bapak/Ibu/Saudara/i
-                    </p>
-                    <div class="flex flex-col items-center justify-center pt-2">
-                      <div class="rounded-md shadow-md bg-white text-slate-500 px-2 py-1 font-bold text-base">
-                        <p id="tamu-undangan"></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="flex flex-row justify-center ">
-                    <button
-                      class="p-1 rounded-md shadow-md bg-primary text-white text-sm font-bold hover:ring hover:ring-primary hover:bg-white hover:text-primary transition duration-200"
-                      id="buka"
-                    >
-                      <div
-                        class="flex flex-row items-center justify-center gap-x-2"
-                        id="buttonBukaUndangan"
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1.5"
-                          stroke="currentColor"
-                          class="w-5 h-5"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M21.75 9v.906a2.25 2.25 0 0 1-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 0 0 1.183 1.981l6.478 3.488m8.839 2.51-4.66-2.51m0 0-1.023-.55a2.25 2.25 0 0 0-2.134 0l-1.022.55m0 0-4.661 2.51m16.5 1.615a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V8.844a2.25 2.25 0 0 1 1.183-1.981l7.5-4.039a2.25 2.25 0 0 1 2.134 0l7.5 4.039a2.25 2.25 0 0 1 1.183 1.98V19.5Z"
-                          />
-                        </svg>
-                        Buka undangan
-                      </div>
-                    </button>
+
+<body class="flex items-center flex-col  w-full h-screen">
+  <div class="flex justify-center flex-row w-full" id="bg">
+    <div class="bg-primary w-full md:w-1/2 lg:w-1/4 h-full" id="slide">
+      <div id="undanganTutup">
+        <div class="h-full w-full md:w-1/2 lg:w-1/4 hero" id="hero">
+          <div class="absolute w-full md:w-1/2 lg:w-1/4 h-screen bg-primary px-1">
+            <div class="flex flex-col justify-center text-center h-full">
+              <div class="font-alice flex flex-col gap-y-10">
+                <h1 class="text-4xl text-slate-50 text-shadow fadeInTop">
+                  The Wedding
+                </h1>
+                <div class="w-full justify-center flex fadeInTop">
+
+                  <img src="assets/images/bingkai__1_-removebg-preview.png" alt="" class="w-2/3 animate-pulse" />
+
+                </div>
+
+              </div>
+              <div
+                class="flex flex-row justify-center items-center font-kurale gap-x-1 text-white fade-in-text transition duration-300 ">
+                <h1 class="text-end">MINGGU</h1>
+                <div class="text-[50px] flex flex-row -gap-x-6" style="letter-spacing: -6px;">
+                  <p>0</p>
+                  <p>6</p>
+                </div>
+                <div class="flex flex-col">
+                  <h1>OKTOBER</h1>
+                  <h1>2024</h1>
+                </div>
+
+              </div>
+              <div class="py-5 flex flex-col">
+                <p class="text-sm font-bold text-slate-50 text-shadow fadeInLeft">
+                  Kepada Yth Bapak/Ibu/Saudara/i
+                </p>
+                <div class="flex flex-col items-center justify-center pt-2 fadeInRight">
+                  <div class="rounded-md shadow-md bg-white text-slate-500 px-2 py-1 font-bold text-base">
+                    <p id="tamu-undangan"></p>
                   </div>
                 </div>
               </div>
+              <div class="flex flex-row justify-center fadeInBottom">
+                <button
+                  class="p-1 rounded-md shadow-md bg-primary text-white text-sm font-bold hover:ring hover:ring-primary hover:bg-white hover:text-primary transition duration-200 animate-pulse border-white border"
+                  id="buka">
+                  <div class="flex flex-row items-center justify-center gap-x-2" id="buttonBukaUndangan">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                      stroke="currentColor" class="w-5 h-5">
+                      <path strokeLinecap="round" strokeLinejoin="round"
+                        d="M21.75 9v.906a2.25 2.25 0 0 1-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 0 0 1.183 1.981l6.478 3.488m8.839 2.51-4.66-2.51m0 0-1.023-.55a2.25 2.25 0 0 0-2.134 0l-1.022.55m0 0-4.661 2.51m16.5 1.615a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V8.844a2.25 2.25 0 0 1 1.183-1.981l7.5-4.039a2.25 2.25 0 0 1 2.134 0l7.5 4.039a2.25 2.25 0 0 1 1.183 1.98V19.5Z" />
+                    </svg>
+                    Buka undangan
+                  </div>
+                </button>
+              </div>
             </div>
           </div>
-    <div id="content" class="hidden">
-      <!-- Start Content -->
-       <div class="w-full h-screen flex flex-col items-center px-10 text-white " id="home">
-        <img src="assets/images/frame5-removebg-preview 1.png" alt="frame" class="w-1/3 fadeInTop">
-         <img src="assets/images/s&d.png" alt="bg" class="pt-20 w-3/4 fadeInTop"/>
-         <!-- <img src="assets/icons/weeding.png" alt="" class="animate-bounceng"> -->
-        <div class="flex flex-col justify-center items-center py-5 font-euphoria gap-x-2 pt-10 ">
-          <h1 class="text-[28px] fade-in-text">
-            Septiyan Putra Trisejati
-          </h1>
-          <h1 class="font-alice text-xl fade-in-text">&</h1>
-          <h1 class="text-[28px] text-center float-right fade-in-text">Devi Wulandari Sukoco Angkouw</h1>
         </div>
-        <!-- <div class="flex flex-col items-center pt-8">
-          <div class="w-6 h-6 rounded-full shadow-md border border-slate-300 flex justify-center items-center p-1 animate-bounce cursor-pointer" id="slide-show">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
-            </svg>
-            
-          </div>
-          <p class="font-thin text-[10px]">Slide show</p>
-        </div> -->
-        <img src="assets/images/frame3-removebg-preview 3.png" alt="frame" class="pt-20 fadeInBottom">
+      </div>
+      <div id="content" class="hidden">
+        <!-- Start Content -->
+        <div class="w-full h-screen flex flex-col items-center px-10 text-white " id="home" onscroll="playAudio()">
+          <div class="flex flex-col items-center" id="frame-home">
+            <img src="assets/images/frame5-removebg-preview 1.png" alt="frame" class="w-1/3 fadeInTop">
+            <div class="flex justify-center fadeInTop">
+              <img src="assets/images/s&d.png" alt="bg" class="pt-16 w-3/4 animate-pulse" />
             </div>
-
-            <div id="pasangan" class="w-full items-center p-2 hidden">
-                <div class="rounded-md shadow-md text-primary w-full h-[85vh] bg-white p-3 relative fadeInLeft">
-                  <div class="absolute top-5">
-                    <img src="assets/images/awan-kanan.png" alt="frametop" class="fadeInTop">
-                  </div>
-                  <div class="absolute top-0 left-0">
-                    <img src="assets/images/frame6-removebg-preview 1.png" alt="frametop" class="fadeInBottom">
-                  </div>
-                  <div class="absolute top-60">
-                    <img src="assets/images/awan-kiri.png" alt="framebottom" class="fadeInBottom">
-                  </div>
-
-                  <div class="absolute bottom-0 right-0">
-                    <img src="assets/images/frame7-removebg-preview 1.png" alt="framebottom" class="fadeInTop">
-                  </div>
-                  
-                 <div class="flex flex-col p-5 justify-center items-center w-full h-full gap-y-3 fixed">
-                  <div class="flex flex-col justify-center items-center">
-                    <h1 class="text-2xl font-alice font-bold">Septiyan Putra Trisejati</h1>
-                    <p class="font-thin text-sm pt-3">Anak Ke-3 dari</p>
-                    <div class="flex flex-row justify-center items-center font-thin gap-x-1 text-sm">
-                      <p>Bapak Sunoto</p>
-                      <p>&</p>
-                      <p>Alm. Ibu Kartini</p>
-                    </div>
-                  </div>
-                  <h1 class="text-2xl font-alice font-bold">&</h1>
-                  <div class="flex flex-col justify-center items-center">
-                    <h1 class="text-2xl font-alice font-bold text-center">Devi Wulandari Sukoco Angkouw</h1>
-                    <p class="font-thin text-sm pt-3">Anak Ke-1 dari</p>
-                    <div class="flex flex-col justify-center items-center text-sm font-thin">
-                      <p>Bapak Joko Wahyudiono</p>
-                      <p>&</p>
-                      <p>Ibu Nova Fredika Angkouw</p>
-                    </div>
-                  </div>
-                 </div>
-                  
-                </div>
+            <!-- <img src="assets/icons/weeding.png" alt="" class="animate-bounceng"> -->
+            <div class="flex flex-col justify-center items-center py-5 font-euphoria gap-x-2 pt-5 ">
+              <h1 class="text-[28px] fade-in-text">
+                Septiyan Putra Trisejati
+              </h1>
+              <h1 class="font-alice text-xl fade-in-text">&</h1>
+              <h1 class="text-[28px] text-center float-right fade-in-text ">Devi Wulandari Sukoco Angkouw</h1>
             </div>
-
-            <div id="waktu" class="w-full items-center p-2 hidden">
-              <div class="rounded-md shadow-md text-primary w-full h-[85vh] bg-white p-3 relative fadeInTop">
-                <div class="absolute top-0">
-                  <img src="assets/images/awan-kanan.png" alt="frametop" class="fadeInTop">
-                </div>
-                <div class="absolute top-0 right-0">
-                  <img src="assets/images/frame8-removebg-preview 2.png" alt="frametop" class="fadeInBottom ">
-                </div>
-                
-                <div class="absolute top-60">
-                  <img src="assets/images/awan-kiri.png" alt="framebottom" class=" fadeInTop">
-                </div>
-                <div class="absolute bottom-0 left-0">
-                  <img src="assets/images/frame9-removebg-preview 2.png" alt="framebottom" class=" fadeInTop">
-                </div>
-                <div class="absolute flex justify-center items-center flex-col h-full w-full">
-                  <img src="assets/icons/icons-weeding-transparent.png" alt="framebottom" class="w-[50%] fadeInTop bg-transparent">
-                </div>
-                
-                <div class="flex flex-col px-5 py-10 w-full h-full gap-y-5 fixed font-bold text-primary pr-10">
-                 <div class="flex flex-col items-center font-kurale">
-                  <p>MINGGU</p>
-                  <p>6 OKTOBER 2024</p>
-                 </div>
-
-                 <div class="flex flex-col justify-center items-center fadeInLeft pt-10 gap-y-3">
-                  <h1>AKAD NIKAH</h1>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-red-500 ">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
-                  </svg>
-                  <p class="text-justify text-sm font-normal">Masjid Aqidattul mutaqin - Jl. Sisingamangaraja Komp. Manuhua II, RT 002/RW 004, Kel. Snerbo, Kec. Samofa, Kab. Biak Numfor</p>
-                 </div>
-
-                 <div class="flex flex-col justify-center items-center fadeInRight gap-y-3">
-                  <h1>PERJAMUAN</h1>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-red-500 ">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
-                  </svg>
-                  <p class="text-justify text-sm font-normal">Jl. Sisingamangaraja Komp. Manuhua II, RT 002/RW 004, Kel. Snerbo, Kec. Samofa, Kab. Biak Numfor</p>
-                 </div>
-
-                </div>
-                
-              </div>
+            <div
+              class="flex flex-col justify-center items-center gap-y-2 font-kurale font-bold text-sm pt-4 fade-in-text">
+              <p>Hitung mundur acara</p>
+              <h1 class="font-extralight text-white text-base">
+                <div id="demo"></div>
+              </h1>
             </div>
-
-            <div id="ucapan" class="w-full h-screen flex-col items-center px-10 text-white hidden">
-              <p>Ucapan</p>
-            </div>
-
-            <div id="hadiah" class="w-full h-screen flex-col items-center px-10 text-white hidden">
-              <p>Hadiah</p>
-            </div>
+            <!-- <div class="flex flex-col items-center pt-8">
+            <div class="w-6 h-6 rounded-full shadow-md border border-slate-300 flex justify-center items-center p-1 animate-bounce cursor-pointer" id="slide-show">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
+              </svg>
               
             </div>
-            
+            <p class="font-thin text-[10px]">Slide show</p>
+          </div> -->
+            <img src="assets/images/frame3-removebg-preview 3.png" alt="frame" class="pt-5 w-[40%] fadeInBottom">
+          </div>
+        </div>
+        <!-- Start Page Pasangan -->
+        <div id="pasangan" class="w-full h-screen flex-col items-center p-2 ">
+          <div class="rounded-md shadow-md text-primary w-full h-full bg-white p-3 relative hidden fadeInTop"
+            id="frame-pasangan">
+            <div class="absolute top-5">
+              <img src="assets/images/awan-kanan.png" alt="frametop" class="fadeInTop">
+            </div>
+            <div class="absolute top-0 left-0">
+              <img src="assets/images/frame6-removebg-preview 1.png" alt="frametop" class="fadeInBottom">
+            </div>
+            <div class="absolute top-[150px] md:top-[10px]">
+              <img src="assets/images/awan-kiri.png" alt="framebottom" class="fadeInBottom">
+            </div>
 
+            <div class="absolute bottom-0 right-0">
+              <img src="assets/images/frame7-removebg-preview 1.png" alt="framebottom" class="fadeInTop">
+            </div>
 
-             <!-- Start Button Menu -->
-        <div class="bottom-0 fixed w-full md:w-1/2 lg:w-1/4 hidden" id="bottomMenu">
-          <div class="absolute bottom-8  w-full items-center justify-center flex flex-row">
-            <div  class="rounded-full w-12 h-12 border-white shadow-md overflow-hidden cursor-pointer border-t-2 border-r-2 border-l-2  group transition duration-300 hover:ring hover:ring-slate-300" id="btn-weeding">
-              <img src="assets/icons/icons-weeding.png" alt="icons" class="w-12 group-hover:bg-opacity-45 group-hover:bg-slate-900" />
+            <div class="flex flex-col p-5 justify-center items-center w-full h-full gap-y-3 fixed">
+              <div class="flex flex-col justify-center items-center">
+                <h1 class="text-2xl font-alice font-bold">Septiyan Putra Trisejati</h1>
+                <p class="font-thin text-sm pt-3">Anak Ketiga dari</p>
+                <div class="flex flex-row justify-center items-center font-thin gap-x-1 text-sm">
+                  <p>Bapak Sunoto</p>
+                  <p>&</p>
+                  <p>Ibu Kartini (Alm.)</p>
+                </div>
+              </div>
+              <div
+                class="text-2xl font-alice font-bold w-10 h-10 rounded-full p-1 bg-primary text-white flex justify-center items-center shadow-md">
+                <p>&</p>
+              </div>
+              <div class="flex flex-col justify-center items-center">
+                <h1 class="text-2xl font-alice font-bold text-center">Devi Wulandari Sukoco Angkouw</h1>
+                <p class="font-thin text-sm pt-3">Anak Pertama dari</p>
+                <div class="flex flex-col justify-center items-center text-sm font-thin">
+                  <p>Bapak Joko Wahyudiono</p>
+                  <p>&</p>
+                  <p>Ibu Nova Fredika Angkouw</p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="w-full bg-white flex flex-row justify-between py-1 px-10 rounded-tr-lg rounded-tl-lg shadow-lg">
-            <div class="cursor-pointer flex flex-col justify-center items-center group transition duration-300" id="btn-pasangan">
-              <img src="assets/icons/cincin.png" alt="cincin" srcset="" class="w-8" /> 
-              <p class="font-thin font-alice text-xs group-hover:font-bold">Pasangan</p>
+        </div>
+
+        <!-- End Page Pasangan -->
+        <!-- Start Page Waktu -->
+        <div id="waktu" class="w-full h-screen flex-col items-center pb-16   p-2">
+          <div class="rounded-md shadow-md text-primary w-full h-full bg-white relative fadeInLeft hidden"
+            id="frame-waktu">
+
+            <div class="absolute  -top-10 fadeInTop left-10">
+              <img src="assets/images/rose-blue-removebg-preview.png" alt="frametop" class=" w-16 -rotate-90">
             </div>
 
-            <div class="flex flex-col justify-center items-center cursor-pointer group" id="btn-waktu">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-primary">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+            <div class="absolute top-8 overflow-hidden fadeInLeft">
+              <img src="assets/images/kupubiru.gif" alt="" class="w-5 rotate-45">
+            </div>
+            <div class="absolute top-20 overflow-hidden left-5 fadeInBottom">
+              <img src="assets/images/kupubiru.gif" alt="" class="w-5 rotate-45">
+            </div>
+            <div class="absolute top-12 overflow-hidden left-10 fadeInRight">
+              <img src="assets/images/kupubiru.gif" alt="" class="w-5 -rotate-45 ">
+            </div>
+            <div class="absolute  -bottom-10 right-10 fadeInTop  ">
+              <img src="assets/images/rose-blue-removebg-preview.png" alt="frametop" class=" w-16 rotate-90">
+            </div>
+            <div class="absolute bottom-8 right-1 fadeInRight">
+              <img src="assets/images/kupubiru.gif" alt="" class="w-5 -rotate-45">
+            </div>
+
+            <div class="absolute bottom-10 right-16 fadeInLeft">
+              <img src="assets/images/kupubiru.gif" alt="" class="w-5 rotate-45">
+            </div>
+            <div class="absolute bottom-16 right-8 fadeInTop">
+              <img src="assets/images/kupubiru.gif" alt="" class="w-5 -rotate-90">
+            </div>
+
+            <div class="absolute top-0">
+              <img src="assets/images/awan-kanan.png" alt="frametop" class="fadeInTop">
+            </div>
+            <div class="absolute top-0 right-0">
+              <img src="assets/images/frame8-removebg-preview 2.png" alt="frametop" class="fadeInBottom ">
+            </div>
+            <div class="absolute top-[150px]">
+              <img src="assets/images/awan-kiri.png" alt="framebottom" class=" fadeInTop">
+            </div>
+
+
+            <div class="absolute top-32 overflow-hidden left-10 fadeInLeft">
+              <img src="assets/images/kupubiru.gif" alt="" class="w-5 rotate-45 ">
+            </div>
+            <div class="absolute top-28 overflow-hidden right-10 fadeInRight">
+              <img src="assets/images/kupubiru.gif" alt="" class="w-5 -rotate-45 ">
+            </div>
+
+            <div class="absolute bottom-52 overflow-hidden right-28 fadeInRight">
+              <img src="assets/images/kupubiru.gif" alt="" class="w-5 -rotate-45 ">
+            </div>
+            <div class="absolute bottom-64 overflow-hidden left-28 fadeInRight">
+              <img src="assets/images/kupubiru.gif" alt="" class="w-5 rotate-45 ">
+            </div>
+            <div class="absolute top-52 overflow-hidden left-28 fadeInRight">
+              <img src="assets/images/kupubiru.gif" alt="" class="w-5 rotate-45 ">
+            </div>
+            <div class="absolute bottom-0 left-0">
+              <img src="assets/images/frame9-removebg-preview 2.png" alt="framebottom" class=" fadeInTop">
+            </div>
+            <div class="absolute flex justify-center items-center flex-col h-full w-full">
+              <img src="assets/icons/icons-weeding-transparent.png" alt="framebottom"
+                class="w-[60%] fadeInTop bg-transparent">
+            </div>
+
+            <div
+              class="flex flex-col px-5 w-full h-full gap-y-8 justify-center items-center fixed font-bold text-primary pr-10">
+              <div class="flex flex-col items-center font-kurale">
+                <p class="text-xl text-shadow">MINGGU</p>
+                <p class="text-xl text-shadow">06 OKTOBER 2024</p>
+              </div>
+
+              <div class="flex flex-col justify-center items-center gap-y-1 pt-5">
+                <h1 class="text-shadow">AKAD NIKAH</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="size-6 text-primary">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                 </svg>
-                <p class="font-thin text-xs font-alice group-hover:font-bold">Waktu</p>
+                <div class="flex flex-row p-3 rounded-md shadow-md bg-primary text-white">
+                  <p class="text-justify text-sm font-bold font-kurale ">
+                    09:00 WIT - Selesai
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex flex-col justify-center items-center gap-y-1">
+                <h1 class="text-shadow">PERJAMUAN</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="size-6 text-primary">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+
+                <div class="flex flex-row p-3 rounded-md shadow-md bg-primary text-white">
+                  <p class="text-justify text-sm font-bold font-kurale ">
+                    11:00 - 14:00 WIT
+                  </p>
+                </div>
+              </div>
+
             </div>
-            
-               
-                  <p></p>
-                  <div class="flex flex-col justify-center items-center cursor-pointer group" id="btn-ucapan">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-primary">
-                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z" />
-                   </svg>
-                   <p class="font-thin font-alice text-xs group-hover:font-bold">RSVP</p>
-                  </div>
-                  <div class="flex flex-col justify-center items-center cursor-pointer group" id="btn-hadiah">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-primary">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
-                    </svg>
-                    <p class="font-thin font-alice text-xs group-hover:font-bold">Gift & greet</p>
-                  </div>
-                  
-                      
+
+          </div>
+        </div>
+        <!-- End Page Waktu -->
+        <!-- Start Page Lokasi -->
+        <div id="lokasi" class="w-full h-screen md:h-auto pb-16 flex-col items-center  text-white font-alice ">
+          <div id="frame-lokasi" class="hidden">
+            <div class="flex flex-col items-center gap-y-3 w-full h-screen md:h-auto px-3 pb-10 pt-5">
+              <div class="fadeInBottom">
+                <h1 class="font-kurale font-bold text-xl text-center py-3">Lokasi</h1>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d15955.92443416953!2d136.072239!3d-1.173779!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMcKwMTAnMjUuNiJTIDEzNsKwMDQnMjkuMyJF!5e0!3m2!1sid!2sid!4v1726046886043!5m2!1sid!2sid"
+                  height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade" class="rounded-md shadow-md w-full"></iframe>
+              </div>
+              <div class="flex flex-col justify-center items-center  gap-y-1 fadeInTop">
+                <h1 class="font-bold">AKAD NIKAH</h1>
+                <a href="https://maps.app.goo.gl/yNBeZtAqQjkKaRYs6" target="_blank"
+                  class="outline-none flex flex-col justify-center items-center rounded-md bg-white text-primary px-2 py-1">
+
+                  <p class="text-sm font-bold animate-pulse">Menuju lokasi</p>
+                </a>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="size-6 font-bold text-white">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                </svg>
+                <p class="text-justify text-base font-bold">Masjid Aqidatul Muttaqin - Biak</p>
+              </div>
+
+              <div class="flex flex-col justify-center items-center  gap-y-1 fadeInTop">
+                <h1 class="font-bold">PERJAMUAN</h1>
+                <a href="https://maps.app.goo.gl/NU1hpLoFf2LvyqDf7" target="_blank"
+                  class="outline-none flex flex-col justify-center items-center rounded-md bg-white text-primary px-2 py-1">
+                  <p class="text-sm font-bold animate-pulse">Menuju lokasi</p>
+                </a>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="size-6 font-bold text-white">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                </svg>
+                <p class="text-center text-base font-bold">Jl. Sisingamangaraja Komp. Manuhua II, RT 002/RW 004, Kel.
+                  Snerbo, Kec. Samofa, Kab. Biak Numfor</p>
+              </div>
             </div>
+          </div>
+
         </div>
-       
+        <!-- End Page Lokasi -->
+        <!-- Star Page Ucapan -->
+        <div id="ucapan" class="w-full h-screen md:h-auto flex-col items-center px-2 pt-2 pb-16 text-white ">
+          <div class="rounded-md shadow-md text-primary w-full h-full md:h-auto bg-white hidden fadeInBottom"
+            id="frame-ucapan">
+            <div class="flex flex-col w-full">
+              <h1 class="text-xl font-kurale text-primary text-center pt-5">Konfirmasi Kehadiran</h1>
+              <form action="" class="flex flex-col px-10 gap-y-5 py-5" id="my-form">
+                <input type="text" hidden id="timeOut" name="timeOut" />
+                <div class="flex flex-col">
+                  <label for="nama" class="text-sm font-bold">Nama Lengkap</label>
+                  <input type="text" id="nama" name="nama"
+                    class="rounded-md shadow-md p-2 outline-none border border-primary bg-primary text-sm font-thin text-white"
+                    placeholder="Silahkan isi nama lengkap" required />
+                </div>
+                <div class="flex flex-col">
+                  <label for="status" class="text-sm font-bold">Kehadiran</label>
+                  <select name="status" id="status"
+                    class="rounded-md shadow-md p-2 outline-none border border-primary text-sm font-thin text-white bg-primary">
+                    <option value="Hadir">Hadir</option>
+                    <option value="Tidak Hadir">Tidak Hadir</option>
+                  </select>
+                </div>
+                <div class="flex w-full">
+                  <textarea name="ket" id="ket"
+                    class="rounded-md shadow-md outline-none border-primary bg-primary text-white text-sm font-thin w-full h-44 p-3"
+                    placeholder="Silahkan isi komentar" required></textarea>
+                </div>
+
+                <button type="submit" id="btnKonfirm"
+                  class="rounded-full bg-primary text-white font-bold text-sm border border-primary py-2 hover:bg-white hover:text-primary transition duration-300 flex flex-row justify-center items-center">Konfirmasi
+                  kehadiran</button>
+              </form>
+              <div class="w-full px-3 pt-5 pb-12">
+                <!-- <div id="disqus_thread"></div> -->
+                <!-- <div class="fb-comments " data-href="https://bayualexandria.github.io/septiyan-devi" data-numposts="5"
+                  data-mobile>
+                </div>
+                <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+                <!-- Facebook comment -->
+                <!-- <ul id="wrapper">
+                </ul> -->
+                <!-- End Facebook Comment -->
+                <hr />
+                <div class="w-full px-5 divide-y divide-primary overflow-y-auto h-36" id="dataComments">
+
+                </div>
+              </div>
+              <!-- <script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                /*
+                var disqus_config = function () {
+                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function () { // DON'T EDIT BELOW THIS LINE
+                  var d = document, s = d.createElement('script');
+                  s.src = 'https://https-bayualexandria-github-io-septiyan-devi.disqus.com/embed.js';
+                  s.setAttribute('data-timestamp', +new Date());
+                  (d.head || d.body).appendChild(s);
+                })();
+              </script> -->
+
+            </div>
+          </div>
         </div>
-        <!-- End Button Menu -->
-       </div>
-       <!-- End Content -->
+        <!-- End Page Ucapan -->
+        <!-- Start Page Hadiah -->
+        <div id="hadiah" class="w-full h-screen flex-col md:h-auto items-center p-2 pb-16 text-white ">
+          <div class="rounded-md shadow-md text-primary w-full h-full md:h-auto bg-white p-3 hidden fadeInTop"
+            id="frame-hadiah">
+            <div class="flex flex-col gap-y-1">
+              <h1 class="font-normal font-kurale text-center underline text-base pt-5"></h1>
+              <h1 class="text-center font-kurale">Kehadiran dan doa restu Anda merupakan anugerah terindah bagi kami.
+                Namun, apabila Anda hendak memberikan tanda kasih kepada kami, Anda dapat
+                menggunakan fitur di bawah ini.</h1>
+              <div class="w-full flex justify-center items-center pt-5">
+                <button
+                  class="flex flex-row outline-none justify-center items-center bg-primary text-white font-bold text-sm p-1 rounded-md shadow-md hover:bg-white hover:text-primary transition duration-300 gap-x-2 border border-primary"
+                  id="btnTampilRek">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M21 11.25v8.25a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 1 0 9.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1 1 14.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125Z" />
+                  </svg>
 
 
-       
+                  <p>SEND A GIFT</p>
+                </button>
+              </div>
+
+              <div class="w-full flex justify-center items-center pt-16 flex-col ">
+                <img src="assets/images/border-removebg-preview 1.png" alt="border" />
+                <div class="flex flex-col justify-center items-center gap-y-2 fadeInTop">
+                  <img src="assets/images/frame-top.png" alt="top" class="pt-10" />
+                  <p class="text-center font-kurale text-sm">Merupakan suatu kehormatan dan kebahagiaan bagi kami
+                    apabila
+                    Bapak/Ibu/Saudara (i) berkenan hadir
+                    untuk memberikan doa restu kepada kedua mempelai. Atas kehadiran dan doa restunya, kami sampaikan
+                    terima kasih.</p>
+                  <p class="font-bold font-kurale">Hormat Kami Yang Mengundang</p>
+                  <div class="flex flex-row  items-center justify-center font-kurale font-bold text-xl gap-x-3 w-full">
+                    <p>Septiyan</p>
+
+                    <p>&</p>
+
+                    <p>Devi</p>
+                  </div>
+                  <img src="assets/images/frame-bottom.png" alt="bottom" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Page Hadiah -->
+      </div>
+
+      <!-- Start Full Screen -->
+      <!-- <div class="fixed bottom-28 left-34 pl-1 hidden" id="screen-container">
+        <button
+          class="w-6 h-6 rounded-full border border-white flex justify-center items-center text-white bg-primary hover:bg-white hover:text-primary transition duration-300 cursor-pointer"
+          onclick="fullScreen()">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-4">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5m.75-9 3-3 2.148 2.148A12.061 12.061 0 0 1 16.5 7.605" />
+          </svg>
+
+        </button>
+      </div> -->
+      <!-- End Full Screen -->
+      <!-- Start Song -->
+      <div class="fixed bottom-20 left-34 pl-1 hidden" id="audio-container">
+        <audio id="song" autoplay loop>
+          <source src="assets/song/pernikahan.mp3" type="audio/mp3" />
+        </audio>
+        <div
+          class="w-6 h-6 rounded-full border border-white flex justify-center items-center text-white bg-primary hover:bg-white hover:text-primary transition duration-300 animate-spin">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6" id="icon-song">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M15.91 11.672a.375.375 0 0 1 0 .656l-5.603 3.113a.375.375 0 0 1-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112Z" />
+          </svg>
+
+
+        </div>
+      </div>
+      <!-- End Song -->
+
+      <!-- Start Button Menu -->
+      <div class="bottom-0 fixed w-full md:w-1/2 lg:w-1/4 hidden" id="bottomMenu">
+
+        <div class="absolute bottom-11  w-full items-center justify-center flex">
+          <div
+            class="rounded-full w-12 h-12 border-white shadow-md overflow-hidden cursor-pointer border-t-2 border-r-2 border-l-2  group transition duration-300 hover:ring hover:ring-slate-300"
+            id="btn-weeding">
+            <img src="assets/icons/icons-weeding.png" alt="icons"
+              class="w-12 group-hover:bg-opacity-45 group-hover:bg-slate-900" />
+          </div>
+        </div>
+        <div
+          class="w-full bg-white flex flex-row justify-between py-1 px-10 rounded-tr-lg rounded-tl-lg shadow-lg border-t border-t-slate-300">
+          <div class="cursor-pointer flex flex-col justify-center items-center group transition duration-300"
+            id="btn-pasangan">
+            <img src="assets/icons/cincin.png" alt="cincin" srcset="" class="w-8" />
+            <p class="font-thin font-alice text-xs group-hover:font-bold">Pasangan</p>
+          </div>
+
+          <div class="flex flex-col justify-center items-center cursor-pointer group" id="btn-waktu">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6 text-primary">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+            </svg>
+            <p class="font-thin text-xs font-alice group-hover:font-bold">Waktu</p>
+          </div>
+
+
+          <div class="flex flex-col justify-center items-center cursor-pointer group" id="btn-lokasi">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6 text-primary">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+            </svg>
+            <p class="font-thin font-alice text-xs group-hover:font-bold">Lokasi</p>
+          </div>
+          <div class="flex flex-col justify-center items-center cursor-pointer group" id="btn-ucapan">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6 text-primary">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z" />
+            </svg>
+            <p class="font-thin font-alice text-xs group-hover:font-bold">RSVP</p>
+          </div>
+          <div class="flex flex-col justify-center items-center cursor-pointer group" id="btn-hadiah">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6 text-primary">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
+            </svg>
+            <p class="font-thin font-alice text-xs group-hover:font-bold ">Gift & greet</p>
+          </div>
+
+
+        </div>
+      </div>
+
     </div>
+    <!-- End Button Menu -->
+  </div>
+  <!-- End Content -->
+
+  <!-- Start Modal BNI -->
+  <div class="fixed flex-col w-full md:w-1/2 lg:w-1/4 justify-center items-center p-5 h-screen bg-slate-300/70 hidden "
+    id="modal-bni">
+    <div class="w-full bg-white rounded-md p-5 flex justify-center items-center fadeInBottom" id="container-modal">
+      <div class="absolute top-1 right-1">
+        <div
+          class="flex bg-primary text-white justify-center items-center w-6 h-6 rounded-full shadow-md hover:text-primary hover:bg-white border border-primary transition duration-200 cursor-pointer"
+          id="btn-modal-close">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6 ">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+        </div>
+
+      </div>
+      <div class="flex-col justify-center items-center pt-5 font-kurale gap-y-2 relative flex">
+        <img src="assets/images/logo-bni.png" alt="bni" class="w-[100px] " />
+        <p class="font-normal text-base">No. Rekening : 1147467346 </p>
+        <p>DEVI WULANDARI</p>
+        <button id="btn-bni" onclick="rekBni()"
+          class="font-normal text-sm rounded-md bg-primary text-white px-2 py-1 hover:text-primary hover:bg-white border border-primary transition duration-300">Salin
+          No.
+          Rekening</button>
+        <div id="tooltip-copy-bni"
+          class="p-1 text-xs text-white absolute bg-slate-500 rounded-md right-2 bottom-5 hidden">
+          Copied!
+        </div>
+      </div>
     </div>
-</div>
- 
-<script src="assets/js/scripts1.js"></script>
+
+
+  </div>
+  <!-- End Modal BNI -->
+
+  </div>
+  </div>
+  </div>
+  <!-- <script>
+    window.addEventListener("load", function () {
+      const valueNull = document.forms["my-form"];
+    });
+  </script> -->
+  <script>
+
+    // window.open("index.html", "", "fullscreen=yes");
+    // window.open('', '_parent', '');
+    // window.close();
+
+    // Set the date we're counting down to
+    var countDownDate = new Date("Oct 6, 2024 09:00:00").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+
+      // Get today's date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Output the result in an element with id="demo"
+      document.getElementById("demo").innerHTML = `<div class="flex flex-row gap-x-3 font-kurale">
+  <div class="flex flex-col justify-center items-center gap-y-1">
+    <div class="w-8 h-8 rounded-full shadow-md bg-white p-2 text-base font-bold text-primary animate-pulse flex justify-center items-center">${days}</div>
+    <p class="text-xs font-normal">Hari</p>
+  </div>
+    <div class="flex flex-col justify-center items-center gap-y-1">
+    <div class="w-8 h-8 rounded-full shadow-md bg-white p-2 text-base font-bold text-primary animate-pulse flex justify-center items-center">${hours}</div>
+    <p class="text-xs font-normal">Jam</p>
+  </div>
+    <div class="flex flex-col justify-center items-center gap-y-1">
+    <div class="w-8 h-8 rounded-full shadow-md bg-white p-2 text-base font-bold text-primary animate-pulse flex justify-center items-center">${minutes}</div>
+    <p class="text-xs font-normal">Menit</p>
+  </div>
+    <div class="flex flex-col justify-center items-center gap-y-1">
+    <div class="w-8 h-8 rounded-full shadow-md bg-white p-2 text-base font-bold text-primary animate-pulse flex justify-center items-center">${seconds}</div>
+    <p class="text-xs font-normal">Detik</p>
+  </div>
+  </div>`;
+
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "Happy Wedding";
+      }
+    }, 1000);
+  </script>
+  <!-- <div id="fb-root" class="hidden"></div> -->
+  <!-- <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v20.0&appId=652505749261731"
+    nonce="d0RaP1ng"></script> -->
+  <!-- <script id="dsq-count-scr" src="//weeding-septiyan-devi.disqus.com/count.js" async></script> -->
+  <!-- <script id="dsq-count-scr" src="//https-bayualexandria-github-io-septiyan-devi.disqus.com/count.js" async></script> -->
+  <script src="https://sheetdb.io/handlebars.js"></script>
+  <script>
+
+
+    // this code will be executed after all sheetdb data has been retrieved
+
+  </script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.40/jquery.csv.min.js"
+    integrity="sha512-Y8iWYJDo6HiTo5xtml1g4QqHtl/PO1w+dmUpQfQSOTqKNsMhExfyPN2ncNAe9JuJUSKzwK/b6oaNPop4MXzkwg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="assets/js/scripts1.js"></script>
 </body>
+
 </html>

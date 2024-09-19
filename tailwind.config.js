@@ -30,7 +30,7 @@ module.exports = {
           "text-slide-7 17.5s cubic-bezier(0.83, 0, 0.17, 1) infinite",
         "text-slide-8":
           "text-slide-8 20s cubic-bezier(0.83, 0, 0.17, 1) infinite",
-        "text-slide-1":"text-slide-1 5s"
+        "text-slide-1": "text-slide-1 5s",
       },
       keyframes: {
         "text-slide": {
@@ -38,7 +38,7 @@ module.exports = {
             transform: "translateX(0%)",
           },
           "100%": {
-            transform: "translateX(-66.66%)",
+            transform: "translateX(-75%)",
           },
         },
         "text-slide-1": {

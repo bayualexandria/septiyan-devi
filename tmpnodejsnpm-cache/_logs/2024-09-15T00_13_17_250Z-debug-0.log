@@ -1,0 +1,243 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\cis2\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.1
+2 info using node@v20.15.0
+3 silly config load:file:C:\Users\cis2\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\cis2\Documents\Desain\septiyan-devi\.npmrc
+5 silly config load:file:C:\Users\cis2\.npmrc
+6 silly config load:file:C:\Users\cis2\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:C:\Users\cis2\Documents\Desain\septiyan-devi\tmpnodejsnpm-cache\_logs\2024-09-15T00_13_17_250Z-
+10 verbose logfile C:\Users\cis2\Documents\Desain\septiyan-devi\tmpnodejsnpm-cache\_logs\2024-09-15T00_13_17_250Z-debug-0.log
+11 silly packumentCache heap:2032926720 maxSize:508231680 maxEntrySize:254115840
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly reify moves {}
+16 silly audit bulk request {
+16 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+16 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+16 silly audit   '@jridgewell/gen-mapping': [ '0.3.5' ],
+16 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+16 silly audit   '@jridgewell/set-array': [ '1.2.1' ],
+16 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.0' ],
+16 silly audit   '@jridgewell/trace-mapping': [ '0.3.25' ],
+16 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+16 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+16 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+16 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+16 silly audit   'ansi-regex': [ '6.0.1', '5.0.1' ],
+16 silly audit   'ansi-styles': [ '6.2.1', '4.3.0' ],
+16 silly audit   'any-promise': [ '1.3.0' ],
+16 silly audit   anymatch: [ '3.1.3' ],
+16 silly audit   arg: [ '5.0.2' ],
+16 silly audit   'balanced-match': [ '1.0.2' ],
+16 silly audit   'binary-extensions': [ '2.3.0' ],
+16 silly audit   'brace-expansion': [ '2.0.1' ],
+16 silly audit   braces: [ '3.0.3' ],
+16 silly audit   'camelcase-css': [ '2.0.1' ],
+16 silly audit   chokidar: [ '3.6.0' ],
+16 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+16 silly audit   'color-convert': [ '2.0.1' ],
+16 silly audit   'color-name': [ '1.1.4' ],
+16 silly audit   commander: [ '4.1.1' ],
+16 silly audit   'cross-spawn': [ '7.0.3' ],
+16 silly audit   cssesc: [ '3.0.0' ],
+16 silly audit   didyoumean: [ '1.2.2' ],
+16 silly audit   dlv: [ '1.1.3' ],
+16 silly audit   eastasianwidth: [ '0.2.0' ],
+16 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+16 silly audit   'fast-glob': [ '3.3.2' ],
+16 silly audit   fastq: [ '1.17.1' ],
+16 silly audit   'fill-range': [ '7.1.1' ],
+16 silly audit   'foreground-child': [ '3.3.0' ],
+16 silly audit   fsevents: [ '2.3.3' ],
+16 silly audit   'function-bind': [ '1.1.2' ],
+16 silly audit   glob: [ '10.4.5' ],
+16 silly audit   hasown: [ '2.0.2' ],
+16 silly audit   'is-binary-path': [ '2.1.0' ],
+16 silly audit   'is-core-module': [ '2.15.1' ],
+16 silly audit   'is-extglob': [ '2.1.1' ],
+16 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+16 silly audit   'is-glob': [ '4.0.3' ],
+16 silly audit   'is-number': [ '7.0.0' ],
+16 silly audit   isexe: [ '2.0.0' ],
+16 silly audit   jackspeak: [ '3.4.3' ],
+16 silly audit   jiti: [ '1.21.6' ],
+16 silly audit   lilconfig: [ '2.1.0', '3.1.2' ],
+16 silly audit   'lines-and-columns': [ '1.2.4' ],
+16 silly audit   'lru-cache': [ '10.4.3' ],
+16 silly audit   merge2: [ '1.4.1' ],
+16 silly audit   micromatch: [ '4.0.8' ],
+16 silly audit   minimatch: [ '9.0.5' ],
+16 silly audit   minipass: [ '7.1.2' ],
+16 silly audit   mz: [ '2.7.0' ],
+16 silly audit   nanoid: [ '3.3.7' ],
+16 silly audit   'normalize-path': [ '3.0.0' ],
+16 silly audit   'object-assign': [ '4.1.1' ],
+16 silly audit   'object-hash': [ '3.0.0' ],
+16 silly audit   'package-json-from-dist': [ '1.0.0' ],
+16 silly audit   'path-key': [ '3.1.1' ],
+16 silly audit   'path-parse': [ '1.0.7' ],
+16 silly audit   'path-scurry': [ '1.11.1' ],
+16 silly audit   picocolors: [ '1.1.0' ],
+16 silly audit   picomatch: [ '2.3.1' ],
+16 silly audit   pify: [ '2.3.0' ],
+16 silly audit   pirates: [ '4.0.6' ],
+16 silly audit   postcss: [ '8.4.45' ],
+16 silly audit   'postcss-import': [ '15.1.0' ],
+16 silly audit   'postcss-js': [ '4.0.1' ],
+16 silly audit   'postcss-load-config': [ '4.0.2' ],
+16 silly audit   'postcss-nested': [ '6.2.0' ],
+16 silly audit   'postcss-selector-parser': [ '6.1.2' ],
+16 silly audit   'postcss-value-parser': [ '4.2.0' ],
+16 silly audit   'queue-microtask': [ '1.2.3' ],
+16 silly audit   'read-cache': [ '1.0.0' ],
+16 silly audit   readdirp: [ '3.6.0' ],
+16 silly audit   resolve: [ '1.22.8' ],
+16 silly audit   reusify: [ '1.0.4' ],
+16 silly audit   'run-parallel': [ '1.2.0' ],
+16 silly audit   'shebang-command': [ '2.0.0' ],
+16 silly audit   'shebang-regex': [ '3.0.0' ],
+16 silly audit   'signal-exit': [ '4.1.0' ],
+16 silly audit   'source-map-js': [ '1.2.0' ],
+16 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+16 silly audit   'strip-ansi': [ '6.0.1', '7.1.0' ],
+16 silly audit   sucrase: [ '3.35.0' ],
+16 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+16 silly audit   tailwindcss: [ '3.4.11' ],
+16 silly audit   thenify: [ '3.3.1' ],
+16 silly audit   'thenify-all': [ '1.6.0' ],
+16 silly audit   'to-regex-range': [ '5.0.1' ],
+16 silly audit   'ts-interface-checker': [ '0.1.13' ],
+16 silly audit   'util-deprecate': [ '1.0.2' ],
+16 silly audit   which: [ '2.0.2' ],
+16 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+16 silly audit   yaml: [ '2.5.1' ]
+16 silly audit }
+17 verbose reify failed optional dependency C:\Users\cis2\Documents\Desain\septiyan-devi\node_modules\fsevents
+18 silly reify mark deleted [
+18 silly reify   'C:\\Users\\cis2\\Documents\\Desain\\septiyan-devi\\node_modules\\fsevents'
+18 silly reify ]
+19 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 774ms
+20 silly audit report {}
+21 silly ADD node_modules/yaml
+22 silly ADD node_modules/wrap-ansi-cjs
+23 silly ADD node_modules/wrap-ansi-cjs/node_modules/strip-ansi
+24 silly ADD node_modules/wrap-ansi-cjs/node_modules/string-width
+25 silly ADD node_modules/wrap-ansi-cjs/node_modules/emoji-regex
+26 silly ADD node_modules/wrap-ansi-cjs/node_modules/ansi-styles
+27 silly ADD node_modules/wrap-ansi-cjs/node_modules/ansi-regex
+28 silly ADD node_modules/wrap-ansi
+29 silly ADD node_modules/which
+30 silly ADD node_modules/util-deprecate
+31 silly ADD node_modules/ts-interface-checker
+32 silly ADD node_modules/to-regex-range
+33 silly ADD node_modules/thenify-all
+34 silly ADD node_modules/thenify
+35 silly ADD node_modules/tailwindcss
+36 silly ADD node_modules/supports-preserve-symlinks-flag
+37 silly ADD node_modules/sucrase
+38 silly ADD node_modules/strip-ansi-cjs
+39 silly ADD node_modules/strip-ansi-cjs/node_modules/ansi-regex
+40 silly ADD node_modules/strip-ansi
+41 silly ADD node_modules/string-width-cjs
+42 silly ADD node_modules/string-width-cjs/node_modules/strip-ansi
+43 silly ADD node_modules/string-width-cjs/node_modules/emoji-regex
+44 silly ADD node_modules/string-width-cjs/node_modules/ansi-regex
+45 silly ADD node_modules/string-width
+46 silly ADD node_modules/source-map-js
+47 silly ADD node_modules/signal-exit
+48 silly ADD node_modules/shebang-regex
+49 silly ADD node_modules/shebang-command
+50 silly ADD node_modules/run-parallel
+51 silly ADD node_modules/reusify
+52 silly ADD node_modules/resolve
+53 silly ADD node_modules/readdirp
+54 silly ADD node_modules/read-cache
+55 silly ADD node_modules/queue-microtask
+56 silly ADD node_modules/postcss-value-parser
+57 silly ADD node_modules/postcss-selector-parser
+58 silly ADD node_modules/postcss-nested
+59 silly ADD node_modules/postcss-load-config
+60 silly ADD node_modules/postcss-load-config/node_modules/lilconfig
+61 silly ADD node_modules/postcss-js
+62 silly ADD node_modules/postcss-import
+63 silly ADD node_modules/postcss
+64 silly ADD node_modules/pirates
+65 silly ADD node_modules/pify
+66 silly ADD node_modules/picomatch
+67 silly ADD node_modules/picocolors
+68 silly ADD node_modules/path-scurry
+69 silly ADD node_modules/path-parse
+70 silly ADD node_modules/path-key
+71 silly ADD node_modules/package-json-from-dist
+72 silly ADD node_modules/object-hash
+73 silly ADD node_modules/object-assign
+74 silly ADD node_modules/normalize-path
+75 silly ADD node_modules/nanoid
+76 silly ADD node_modules/mz
+77 silly ADD node_modules/minipass
+78 silly ADD node_modules/minimatch
+79 silly ADD node_modules/micromatch
+80 silly ADD node_modules/merge2
+81 silly ADD node_modules/lru-cache
+82 silly ADD node_modules/lines-and-columns
+83 silly ADD node_modules/lilconfig
+84 silly ADD node_modules/jiti
+85 silly ADD node_modules/jackspeak
+86 silly ADD node_modules/isexe
+87 silly ADD node_modules/is-number
+88 silly ADD node_modules/is-glob
+89 silly ADD node_modules/is-fullwidth-code-point
+90 silly ADD node_modules/is-extglob
+91 silly ADD node_modules/is-core-module
+92 silly ADD node_modules/is-binary-path
+93 silly ADD node_modules/hasown
+94 silly ADD node_modules/glob-parent
+95 silly ADD node_modules/glob
+96 silly ADD node_modules/function-bind
+97 silly ADD
+98 silly ADD node_modules/foreground-child
+99 silly ADD node_modules/fill-range
+100 silly ADD node_modules/fastq
+101 silly ADD node_modules/fast-glob
+102 silly ADD node_modules/fast-glob/node_modules/glob-parent
+103 silly ADD node_modules/emoji-regex
+104 silly ADD node_modules/eastasianwidth
+105 silly ADD node_modules/dlv
+106 silly ADD node_modules/didyoumean
+107 silly ADD node_modules/cssesc
+108 silly ADD node_modules/cross-spawn
+109 silly ADD node_modules/commander
+110 silly ADD node_modules/color-name
+111 silly ADD node_modules/color-convert
+112 silly ADD node_modules/chokidar
+113 silly ADD node_modules/chokidar/node_modules/glob-parent
+114 silly ADD node_modules/camelcase-css
+115 silly ADD node_modules/braces
+116 silly ADD node_modules/brace-expansion
+117 silly ADD node_modules/binary-extensions
+118 silly ADD node_modules/balanced-match
+119 silly ADD node_modules/arg
+120 silly ADD node_modules/anymatch
+121 silly ADD node_modules/any-promise
+122 silly ADD node_modules/ansi-styles
+123 silly ADD node_modules/ansi-regex
+124 silly ADD node_modules/@pkgjs/parseargs
+125 silly ADD node_modules/@nodelib/fs.walk
+126 silly ADD node_modules/@nodelib/fs.stat
+127 silly ADD node_modules/@nodelib/fs.scandir
+128 silly ADD node_modules/@jridgewell/trace-mapping
+129 silly ADD node_modules/@jridgewell/sourcemap-codec
+130 silly ADD node_modules/@jridgewell/set-array
+131 silly ADD node_modules/@jridgewell/resolve-uri
+132 silly ADD node_modules/@jridgewell/gen-mapping
+133 silly ADD node_modules/@isaacs/cliui
+134 silly ADD node_modules/@alloc/quick-lru
+135 verbose cwd C:\Users\cis2\Documents\Desain\septiyan-devi
+136 verbose os Windows_NT 10.0.22621
+137 verbose node v20.15.0
+138 verbose npm  v10.8.1
+139 verbose exit 0
+140 info ok
