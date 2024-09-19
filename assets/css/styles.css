@@ -626,10 +626,6 @@ video {
   left: 7rem;
 }
 
-.left-32 {
-  left: 8rem;
-}
-
 .left-5 {
   left: 1.25rem;
 }
@@ -690,8 +686,8 @@ video {
   top: 1.25rem;
 }
 
-.top-60 {
-  top: 15rem;
+.top-52 {
+  top: 13rem;
 }
 
 .top-8 {
@@ -700,18 +696,6 @@ video {
 
 .top-\[150px\] {
   top: 150px;
-}
-
-.top-56 {
-  top: 14rem;
-}
-
-.top-52 {
-  top: 13rem;
-}
-
-.left-3 {
-  left: 0.75rem;
 }
 
 .float-right {
