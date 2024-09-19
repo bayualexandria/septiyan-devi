@@ -182,7 +182,8 @@ const frameHadiah = document.getElementById("frame-hadiah");
 
 // Scroll
 window.addEventListener("scroll", function () {
-  if (this.window.screenY >= 0 && this.window.scrollY <= 150) {
+  console.log(this.window.scrollY);
+  if (this.window.scrollY >= 0 && this.window.scrollY <= 150) {
     frameHome.classList.remove("hidden");
     framePasangan.classList.add("hidden");
     frameWaktu.classList.add("hidden");
@@ -249,7 +250,7 @@ window.addEventListener("scroll", function () {
     frameUcapan.classList.remove("hidden");
     frameHadiah.classList.add("hidden");
   }
-  if (this.window.scrollY >= 3000 && this.window.scrollY <= 3600) {
+  if (this.window.scrollY >= 2999 && this.window.scrollY <= 3600) {
     frameHome.classList.add("hidden");
     framePasangan.classList.add("hidden");
     frameWaktu.classList.add("hidden");
